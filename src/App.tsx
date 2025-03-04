@@ -1,7 +1,7 @@
 
 import ContinueButton from './components/ContinueButton'
 import Scores from './components/Scores'
-import data from './assets/constants'
+import data from './constants'
 
 function App() {
   
