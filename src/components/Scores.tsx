@@ -14,7 +14,7 @@ const Scores = (props: Results) => {
             <img src={props.icon} alt="icon" />
             <p className={`${props.text_color} font-semibold`}>{props.title}</p>
         </div>
-        <p><span>{props.score}</span> / 100</p>
+        <p><span className="font-semibold">{props.score}</span> / <span className="text-Light_lavender font-semibold">100</span></p>
     </div>
   )
 }
