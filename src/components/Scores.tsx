@@ -8,7 +8,7 @@ interface Results{
 
 const Scores = (props: Results) => {
   return (
-    <div className={`flex justify-between relative p-5 ${props.bg_color} rounded-lg`}>
+    <div className={`flex justify-between relative p-3 ${props.bg_color} rounded-lg`}>
       
         <div className={`flex gap-5`}>
             <img src={props.icon} alt="icon" />

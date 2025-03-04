@@ -9,8 +9,8 @@ function App() {
    <div className='bg-Pale_blue flex justify-center md:h-[100vh] md:py-[10%] flex-col md:flex-row'>
       <div className='text-center bg-gradient-to-b from-Light_slate_blue to-Light_royal_blue md:w-[20%] rounded-b-[50px] md:rounded-xl flex flex-col gap-2 md:gap-10 p-5 md:p-10 '>
         <p className='font-Hanken text-lg font-semibold text-Light_lavender'>Your Result</p>
-        <div className='flex flex-col justify-center w-[200px] h-[200px] self-center rounded-full bg-gradient-to-b from-Violet_blue to-Persian_blue'>
-          <p className='text-[80px] font-bold text-White font-Hanken flex flex-col'>
+        <div className='flex flex-col justify-center w-[150px] h-[150px] self-center rounded-full bg-gradient-to-b from-Violet_blue to-Persian_blue'>
+          <p className='text-[60px] font-bold text-White font-Hanken flex flex-col'>
             <span>76</span>
             <span className='text-sm text-Light_lavender'>of 100</span>
           </p>
